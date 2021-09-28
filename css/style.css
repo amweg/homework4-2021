@@ -30,8 +30,9 @@ body{
   margin: 1.2em;
   background-size: cover ;
   background-position: center;
-  font-family: Andika, sans-serif;
+  font-family: "Andika", sans-serif;
   background-image: url("../images/pigeon-background.JPEG");
+  background-repeat: no-repeat;
   background-color: #DDDDDD;
   /*Req 1*/
 }
@@ -75,8 +76,7 @@ td{
   text-transform:uppercase;
   min-width: 125px;
   padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   background-color: #7e0825;
 }
 
@@ -124,15 +124,16 @@ tr:nth-child(even){
 }
 
 tr:hover{
-  background-color: rgba(49.41, 3.14, 14.51, .25);
+  background-color: rgba(129, 8, 37, .25);
 }
 footer{
-  position: absolute;
+  margin: 0;
+  position:absolute;
+  left: 0;
   bottom: 0;
   width:100%;
   background:#000000;
-  text-align:center;
+  text-align: center;
   color: #FFFFFF;
   min-height: 75px;
-  margin: 0;
 }
