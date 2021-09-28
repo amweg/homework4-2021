@@ -124,8 +124,9 @@ tr:nth-child(even){
 }
 
 tr:hover{
-  background-color: rgba(129, 8, 37, .25);
+  background-color: rgba(49, 3, 26, .25);
 }
+
 footer{
   margin: 0;
   position:absolute;
