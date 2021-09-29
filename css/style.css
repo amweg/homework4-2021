@@ -128,13 +128,13 @@ tr:hover{
 }
 
 footer{
-  margin: 0;
-  position:absolute;
-  left: 0;
-  bottom: 0;
   width:100%;
   background:#000000;
+  min-height: 75px;
   text-align: center;
   color: #FFFFFF;
-  min-height: 75px;
+  position: fixed;
+  margin: 0;
+  left: 0;
+  bottom: 0;
 }
